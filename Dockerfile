@@ -37,4 +37,4 @@ EXPOSE 8000
 HEALTHCHECK --interval=5s --timeout=10s --start-period=5s --retries=100 \
     CMD curl -f http://localhost:8000/up || exit 1
 
-CMD ["uv", "run", "granian", "main.asgi:application", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uv", "run", "granian", "main.asgi:application", "--host", "0.0.0.0", "--port", "8000", "--interface", "asginl"]

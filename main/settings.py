@@ -10,6 +10,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 WSGI_APPLICATION = "main.wsgi.application"
 ASGI_APPLICATION = "main.asgi.application"
 
+ROOT_URLCONF = "main.urls"
+
 # Secret key
 SECRET_KEY = "LOCAL_SECRET"
 
