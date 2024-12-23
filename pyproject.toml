@@ -1,0 +1,15 @@
+[project]
+name = "projectname"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "channels==4.2.0",
+    "channels-redis==4.2.1",
+    "django==5.1.4",
+    "django-ninja==1.3.0",
+    "django-ninja-extra==0.21.8",
+    "django-redis==5.4.0",
+    "granian[reload]==1.7.1",
+    "lz4==4.3.3",
+    "redis[hiredis]==5.2.1",
+]
